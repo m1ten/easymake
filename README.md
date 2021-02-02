@@ -9,7 +9,7 @@ A simple, lightweight, easy to use build system.
 Download the latest version from the releases tab, or build from source (check [COMPILING_EASYMAKE](./COMPILING_EASYMAKE.md) file).
 If you are building from source, please clone the repo with --recursive git flag, then follow [COMPILING_EASYMAKE.md](./COMPILING_EASYMAKE.md) instrctions.
 
-`git clone -b main https://github.com/fossbay/easymake.git --recursive`
+`$ git clone -b main https://github.com/fossbay/easymake.git --recursive`
 
 ## Usage
 
