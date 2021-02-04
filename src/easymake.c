@@ -1,6 +1,6 @@
 /* easymake - a simple, lightweight, easy to use build system
  *
- * Copyright (C) 2021 Cleanware
+ * Copyright (C) 2021 Fossbay
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
@@ -600,7 +600,7 @@ int main(int argc, char *argv[])
 
             if(strcmp(arg, "-v") == 0 || strcmp(arg, "--version") == 0)
             {
-                printf("easymake 1.0.0\nCopyright (C) 2021 Cleanware\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n");
+                printf("easymake 1.0.0\nCopyright (C) 2021 Fossbay\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n");
                 return 0;
             }
             else if(strcmp(arg, "-h") == 0 || strcmp(arg, "--help") == 0)
