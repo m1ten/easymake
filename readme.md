@@ -6,12 +6,12 @@ A simple, lightweight, easy to use build system.
 
 ## Installation
 
-Download the latest version from the releases tab, or build from source (check COMPILING_EASYMAKE file).
-If you are building from source, please clone the repo with --recursive git flag, then follow COMPILING_EASYMAKE.md instrctions.
+Download the latest version from the releases tab, or build from source (check [COMPILING_EASYMAKE](https://github.com/Fossbay/easymake/blob/main/COMPILING_EASYMAKE.md) file).
+If you are building from source, please clone the repo with `--recursive`git flag, then follow [COMPILING_EASYMAKE](https://github.com/Fossbay/easymake/blob/main/COMPILING_EASYMAKE.md) instructions.
 
 ## Usage
 
-`$ easymake [options] targets...`
+`$ easymake [OPTIONS] [TARGET]`
 
 ## Contributing
 
