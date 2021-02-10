@@ -38,13 +38,13 @@
     #define PLATFORM "unknown"
 #endif
 
-void *run_cmd(void *data);
+void run_cmd(void *data);
 char *easymake_read_file(char *file_path);
 char *easymake_format_string(char *str, int variable_count, struct json_value **variables);
 char **easymake_parse_commands(struct json_value *value, char **user_targets);
 int easymake_build(char *file, char **targets, int verbose, int thread_count);
 
-void *run_cmd(void *data)
+void run_cmd(void *data)
 {
     char *cmd = (char *)data;
     system(cmd);
@@ -564,7 +564,7 @@ int easymake_build(char *file, char **targets, int verbose, int thread_count)
 
             if(cmd[0] == '!')
             {
-                threads[thread_index] = create_thread(run_cmd, (void *)(cmd + 1));
+                threads[thread_index] = create_thread((void *)run_cmd, (void *)(cmd + 1));
                 thread_index++;
                 i++;
             }
