@@ -1,6 +1,7 @@
 easymake
 easymake.exe
 easymake.obj
+easymake.dSYM
 *.sublime-*
 *tags
 *.code-*
